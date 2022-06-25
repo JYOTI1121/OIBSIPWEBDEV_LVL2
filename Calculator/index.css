@@ -1,0 +1,72 @@
+body{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    text-align: center;
+    margin-top: auto;
+    color: rgb(153, 203, 248);
+    font-size: large;
+
+}
+
+.container table{
+    margin: auto;
+    padding: 16px;
+    border-spacing: 6px;
+}
+
+.container input {
+    font-size: x-large;
+    height: 35px;
+    text-align: right;
+    color: white;
+    background-color: rgba(186, 85, 211, 0.279);
+    border-color: rgb(5, 72, 139);
+    border-radius: 50px;
+    box-shadow:  0 3px 3px  rgba(193, 13, 166, 0.92);
+}
+
+.container button{
+    font-size: larger;
+    font-style: oblique;
+    font-weight: 600;
+    background-color: rgba(251, 122, 251, 0.619);
+    width: 62px;
+    height: 40px;
+    border-color: rgb(6, 74, 133);
+    border-radius: 44px;
+    box-shadow:  0 4px 5px  rgba(90, 163, 227, 0.92);
+    
+}
+
+.container input:hover{
+    background-color: rgb(136, 194, 250);
+    color: black;
+    box-shadow: 0 4px 8px #f0e;
+}
+
+.container button:hover{
+    background-color: whitesmoke;
+}
+#equal{
+    background-color: rgba(136, 194, 245, 0.92);
+    border-color: rgba(186, 9, 186, 0.631);
+    box-shadow:  0 5px 3px rgba(232, 100, 232, 0.631) 
+}
+
+#equal:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.A{
+    border: 2px solid rgba(116, 36, 134, 0.986); 
+    background-color: rgba(249, 241, 251, 0.185);
+    padding: 15px;
+    border-radius: 30px;
+    display: inline-block;
+    box-shadow:  0 6px 90px  rgb(78, 3, 81);
+}
